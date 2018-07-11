@@ -1,0 +1,8 @@
+Package: tocR
+Title: Tor-Crawler
+Description: bietet die Möglichkeit eine Website über das TOR-Netzwerk zu crawlen
+Version: 0.1
+Author: Samuel Kasper
+Depends: 
+License: 
+LazyData: true
