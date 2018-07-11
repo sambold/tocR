@@ -27,6 +27,7 @@ hidden_crawl <- function(url,
                          wait=0,
                          try.con=10,
                          ssl=F){
+    library(dplyr)
     # packages: RCurl, rvest, magrittr,
     Sys.sleep(wait) # Pause vor jedem Crawl
     webpage <- NA
